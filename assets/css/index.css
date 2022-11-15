@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/bg-space.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.space-arena {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.space-arena .enemy-teritory {
+  text-align: center;
+  position: relative;
+  left: 0px;
+  transition: all .15s;
+}
+
+.space-arena .enemy-teritory br {
+  margin: 20px 0px;
+}
+
+.space-arena .enemy-teritory .entity {
+  margin: 0px 10px;
+}
+
+.entity.alien-general {
+  width: 75px;
+}
+
+.entity.alien-captain {
+  width: 70px;
+}
+
+.entity.alien-troops {
+  width: 50px;
+}
+
+.entity.player {
+  width: 75px;
+  position: relative;
+  left: 0px;
+  transition: all .15s;
+}

@@ -1,0 +1,26 @@
+SPACE EXTENSA
+===============
+
+Characters:
+ - Player
+ - Enemy Alien Troops (shoot 1 laser bullet within 3-6 seconds interval)
+ - Enemy Alien Captain (shoot 4 laser bullets in diagonal direction within 5-7 seconds interval)
+ - Enemy Alien General (shoot 3 consecutive laser bullets within 6-8 seconds interval)
+
+Obstacles:
+ - Moving meteors (encounter every 12 seconds with random size for every encounters)
+ - System Failure (player can't shoot laser bullet for 6 seconds after every 40 shoots)
+
+Player Skills:
+ - 1 Power Barrier (become invincible for 10 seconds)
+ - 2 Space Bombs (damage enemies within 3x3 square area equivalent as 1 laser shoot)
+ - 1 Alien Hack (prevent all enemies from shooting laser bullet for 6 seconds)
+
+Character's Durability:
+ - Player: 3 shots, 2 lives
+ - Alien Troops: 1 shot
+ - Alien Captain: 2 shots
+ - Alien General: 4 shots
+
+Enemy Quantity Composition:
+ - Alien Troops : Alien Captain : Alien General -> 20 : 10 : 5
